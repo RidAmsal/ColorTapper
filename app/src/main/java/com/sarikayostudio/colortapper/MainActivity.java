@@ -3,6 +3,7 @@ package com.sarikayostudio.colortapper;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.StateListDrawable;
+import android.media.MediaPlayer;
 import android.support.annotation.ColorRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,23 +33,22 @@ public class MainActivity extends AppCompatActivity {
         button11 = (Button) findViewById(R.id.B11);
         button12 = (Button) findViewById(R.id.B12);
 
+
         Button [] buttonArray = {button1,button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12};
-        int [] color= {R.color.red, R.color.sweetorange, R.color.softpink, R.color.bluegray, R.color.choco, R.color.deeppurple, R.color.sourlime, R.color.skyblue, R.color.shadegrey, R.color.leafgreen, R.color.purewhite, R.color.black};
+        int [] color= {R.color.red, R.color.sweetorange, R.color.softpink, R.color.bluegray, R.color.choco, R.color.deeppurple, R.color.sourlime,
+                R.color.skyblue, R.color.shadegrey, R.color.leafgreen, R.color.purewhite, R.color.black};
 
                 for(int i=0; i<buttonArray.length;i++){
                     changeColorPressed(buttonArray[i], color[i]);
 
                 }
+
     }
-
-
-
-
     private void changeColorPressed(Button b, int color){
         StateListDrawable states = new StateListDrawable();
         states.addState(new int[] {android.R.attr.state_pressed}, new ColorDrawable(getResources()
                 .getColor(color)));
-        states.addState(new int[] {}, new ColorDrawable(getResources().getColor(R.color.shadegrey)));
+        states.addState(new int[] {}, new ColorDrawable(getResources().getColor(R.color.common_google_signin_btn_text_dark_pressed)));
 
         b.setBackground(states);
 //
