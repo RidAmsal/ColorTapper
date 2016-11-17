@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#d50000</color>
+    <color name="softpink">#ff4081</color>
+    <color name="deeppurple">#4a148c</color>
+    <color name="purewhite">#fff</color>
+    <color name="leafgreen">#4caf50</color>
+    <color name="sourlime">#f4ff81</color>
+    <color name="sweetorange">#ff9100</color>
+    <color name="choco">#3e2723</color>
+    <color name="shadegrey">#616161</color>
+    <color name="skyblue">#40c4ff</color>
+    <color name="black">#000000</color>
+    <color name="bluegray">#455a64</color>
+
+
+
+
+</resources>

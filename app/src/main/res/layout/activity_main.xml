@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="15dp"
+    android:paddingTop="20dp"
+    tools:context="com.sarikayostudio.colortapper.MainActivity">
+
+    <TextView
+        android:id="@+id/welcomingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Color Tapper!"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        
+        android:layout_below="@+id/welcomingText"
+         />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_below="@id/B1"
+         />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_below="@id/B2"
+         />
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_below="@id/B3"
+         />
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B1"
+        android:layout_below="@+id/welcomingText"
+        />
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B2"
+        android:layout_below="@+id/B5"
+        />
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B3"
+        android:layout_below="@+id/B6"
+        />
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B4"
+        android:layout_below="@+id/B7"
+        />
+    <Button
+        android:id="@+id/B9"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B5"
+        android:layout_below="@+id/welcomingText"
+        />
+    <Button
+        android:id="@+id/B10"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B6"
+        android:layout_below="@+id/B9"
+        />
+    <Button
+        android:id="@+id/B11"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B7"
+        android:layout_below="@+id/B10"
+        />
+    <Button
+        android:id="@+id/B12"
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:layout_margin="5dp"
+        android:layout_toRightOf="@id/B8"
+        android:layout_below="@+id/B11"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your score"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>

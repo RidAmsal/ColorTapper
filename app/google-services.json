@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "607759533079",
+    "firebase_url": "https://color-tapper.firebaseio.com",
+    "project_id": "color-tapper",
+    "storage_bucket": "color-tapper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607759533079:android:65866a1362a093e5",
+        "android_client_info": {
+          "package_name": "com.sarikayostudio.colortapper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607759533079-t7i9pdr0hcvqhiv2fmfq5qlblqc7id1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfjyxb91MJRdDzscdOx8I--WnsmFFOn9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
